@@ -1,5 +1,5 @@
 var name = "Susan"
-var height = "74"
+var height = "70"
 
 
 // Don't worry about this
@@ -11,5 +11,6 @@ if (name === "Susan") {
 } else {
     console.log("Expected the name to be Susan")
 }
-
-console.log(height)
+if (height === 70) {
+  console.log("The height is correct")
+}
